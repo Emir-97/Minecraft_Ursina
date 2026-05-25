@@ -47,7 +47,7 @@ class Voxel(Button):
         #Se utiliza la imagen para el bloque de pasto
         texture = texture,
         #Se establece un catalogo rgb de colores pero entre grises y random
-        color = color.color(0,0, random.uniform(0.9,1)),
+        color = color.hsv(0,0, random.uniform(0.9,1)),
         #Se reduce el tamaño del cubo para que no se superpongan
         scale = 0.5)
 
